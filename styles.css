@@ -1,11 +1,33 @@
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Roboto', sans-serif; */
+
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-h1, h2 {
-    margin-bottom: 1em;
+h1 {
+    margin: 2rem 3em;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+
+}
+
+h4 {
+    font-size: 21px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .4rem;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
 }
 
 img {
@@ -65,11 +87,6 @@ section {
 
 
 
-
-.txt--center {
-    text-align: center;
-}
-
 .bg--light {
     background-color: #F3EED9;
 }
@@ -80,6 +97,26 @@ section {
 
 .bg--dark {
     background-color: #222C2A;
+}
+
+.txt--center {
+    text-align: center;
+}
+
+.txt--regular{
+    font-size: 18px;
+}
+
+.txt--lg{
+    font-size: 21px;
+}
+
+.txt--xlg{
+    font-size: 36px;
+}
+
+.txt--xxlg{
+    font-size: 60px;
 }
 
 .txt--light {
