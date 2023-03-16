@@ -133,3 +133,46 @@ section {
 .txt--white {
     color: white;
 }
+
+@media (max-width: 600px) {
+    .row {
+        /* display: flex; */
+        flex-direction: column;
+    }
+
+    .care {
+        flex-direction: column-reverse;
+    }
+
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    header {
+        padding: 3em;
+    }
+
+    h1 {
+        margin: 0;
+        /* padding: 0 1em 1em 1em; */
+    }
+
+    section {
+        padding: 1em;
+    }
+
+    img {
+        margin: 3em 0;
+    }
+
+    .col {
+        max-width: 100%;
+    }
+    .section__txt,
+    .section__img {
+        width: 100%;
+    }
+
+
+}
